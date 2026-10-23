@@ -1,6 +1,6 @@
 cask "canokey-console" do
-  version "1.2.8"
-  sha256 "f3fb332774c2d374999cc66d9cb9b8b09f6be2cf44dec233b106cf313c5601d2"
+  version "1.3.0"
+  sha256 "45c97714a36e974cec60f019d0ad653b6df0cf06b13720429d1e9be2d58acdd2"
 
   url "https://github.com/canokeys/canokey-console/releases/download/v#{version}/canokey-console-#{version}-macos.zip"
   name "CanoKey Console"
