@@ -1,25 +1,25 @@
 class Ckman < Formula
   desc "ckman: CanoKey management CLI"
   homepage "https://github.com/canokeys/canokey-manager"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.3/ckman-aarch64-apple-darwin.tar.xz"
-      sha256 "ae3da10993215e0561bdde8a1cde93095f4ab27ccbbec7e558094ce631188d5d"
+      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.4/ckman-aarch64-apple-darwin.tar.xz"
+      sha256 "e3116dcf615ef2060e201a8765e1ece34ccd883009121861fb28449da52aa569"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.3/ckman-x86_64-apple-darwin.tar.xz"
-      sha256 "698ba934239950f65a195cab5bcb65867fa6f4616e0a840c4448465a50f22afc"
+      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.4/ckman-x86_64-apple-darwin.tar.xz"
+      sha256 "be7817945decdcbd1ac60b171124b4dae3cef2755663c4f20e92389cb3d44a01"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.3/ckman-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9c3d9fec12d1fb94f4fa64efacc1a3fa74aa941f944dc62401af557746eadbac"
+      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.4/ckman-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6c3047d0aced86550846261ccd9e7a4322dbf85b4298550bbb061d1976766cde"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.3/ckman-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "677e92d8808b86d491deb2ca03988062e3c4509c20917e10ad0dc27bb25068a4"
+      url "https://github.com/canokeys/canokey-manager/releases/download/v0.1.4/ckman-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d2a79e7f03554a08fb125d12d9566b5d1455d5d89c32f6af80ebe804d638c475"
     end
   end
   license "Apache-2.0"
